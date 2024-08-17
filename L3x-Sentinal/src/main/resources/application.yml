@@ -1,0 +1,30 @@
+server:
+  port: 8800
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: nacos-sentinel-service
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 116.198.246.11:8089
+    nacos:
+      discovery:
+        server-addr: 47.113.228.37:8848
+      config:
+        import-check:
+          enabled: true
+        server-addr: 47.113.228.37:8848
+        group: DOME
+        file-extension: yaml
+  config:
+    import: nacos:nacos-dome.yaml
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+

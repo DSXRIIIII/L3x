@@ -1,0 +1,15 @@
+server:
+  port: 8891
+
+spring:
+  config:
+    name: l3x-dubbo-consumer-two
+
+dubbo:
+  application:
+    name: l3x-dubbo
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20882

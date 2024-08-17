@@ -1,0 +1,5 @@
+server:
+  port: 8081
+nacos:
+  config:
+    server-addr: 47.113.228.37:8848

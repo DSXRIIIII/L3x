@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dsxriiiii.l3x.pageHelper.mapper.ItemDao">
+    <select id="findByPage" resultType="cn.dsxriiiii.l3x.pageHelper.entity.Item">
+        select id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater
+        from item
+    </select>
+</mapper>

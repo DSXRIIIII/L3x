@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo-rpc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/dubbo-consumer-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/dubbo-consumer-one/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/dubbo-consumer-two/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/dubbo-consumer-two/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/dubbo-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/dubbo-producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Dubbo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Guava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-LiteFlow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-PageHelper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-RabbitMQ/costomer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-RabbitMQ/publisher/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-RabbitMQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-RabbitMQ/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Sentinal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Zookeeper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
