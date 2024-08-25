@@ -19,6 +19,8 @@
         <module>L3x-RabbitMQ</module>
         <module>L3x-Sentinal</module>
         <module>L3x-Zookeeper</module>
+        <module>L3x-CloudGateWay</module>
+        <module>L3x-SpringSecurity</module>
     </modules>
 
     <parent>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,10 +13,13 @@
         <module name="costomer" />
         <module name="L3x-Sentinal" />
         <module name="dubbo-consumer-one" />
+        <module name="L3x-SpringSecurity" />
         <module name="L3x-Zookeeper" />
         <module name="dubbo-consumer-two" />
         <module name="L3x-LiteFlow" />
+        <module name="gateway-service" />
         <module name="L3x-Dubbo-rpc" />
+        <module name="gateway-service-son" />
         <module name="L3x-Log" />
         <module name="publisher" />
         <module name="dubbo-producer" />
@@ -27,6 +31,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="L3x-CloudGateWay" options="" />
       <module name="L3x-Dubbo-rpc" options="-parameters" />
       <module name="L3x-Guava" options="-parameters" />
       <module name="L3x-LiteFlow" options="-parameters" />
@@ -35,11 +40,14 @@
       <module name="L3x-PageHelper" options="-parameters" />
       <module name="L3x-RabbitMQ" options="" />
       <module name="L3x-Sentinal" options="-parameters" />
+      <module name="L3x-SpringSecurity" options="-parameters" />
       <module name="L3x-Zookeeper" options="-parameters" />
       <module name="costomer" options="-parameters" />
       <module name="dubbo-consumer-one" options="-parameters" />
       <module name="dubbo-consumer-two" options="-parameters" />
       <module name="dubbo-producer" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="gateway-service-son" options="-parameters" />
       <module name="producer" options="-parameters" />
       <module name="publisher" options="-parameters" />
     </option>
