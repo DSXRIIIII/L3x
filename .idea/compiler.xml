@@ -8,12 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="L3x-PageHelper" />
+        <module name="openfeign-producer" />
         <module name="L3x-Guava" />
         <module name="L3x-Nacos" />
         <module name="costomer" />
         <module name="L3x-Sentinal" />
         <module name="dubbo-consumer-one" />
         <module name="L3x-SpringSecurity" />
+        <module name="openfeign-consumer" />
+        <module name="L3x-Proxy" />
         <module name="L3x-Zookeeper" />
         <module name="dubbo-consumer-two" />
         <module name="L3x-LiteFlow" />
@@ -37,7 +40,9 @@
       <module name="L3x-LiteFlow" options="-parameters" />
       <module name="L3x-Log" options="-parameters" />
       <module name="L3x-Nacos" options="-parameters" />
+      <module name="L3x-OpenFeign" options="" />
       <module name="L3x-PageHelper" options="-parameters" />
+      <module name="L3x-Proxy" options="-parameters" />
       <module name="L3x-RabbitMQ" options="" />
       <module name="L3x-Sentinal" options="-parameters" />
       <module name="L3x-SpringSecurity" options="-parameters" />
@@ -48,6 +53,8 @@
       <module name="dubbo-producer" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="gateway-service-son" options="-parameters" />
+      <module name="openfeign-consumer" options="-parameters" />
+      <module name="openfeign-producer" options="-parameters" />
       <module name="producer" options="-parameters" />
       <module name="publisher" options="-parameters" />
     </option>

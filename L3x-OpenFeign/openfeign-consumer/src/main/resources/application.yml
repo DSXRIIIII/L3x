@@ -1,0 +1,12 @@
+server:
+  port: 7890
+spring:
+  application:
+    name: l3x-openfeign-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.113.228.37:8848
+        username: nacos
+        password: Lhh0719.
+        register-enabled: false #消费者不需要等级

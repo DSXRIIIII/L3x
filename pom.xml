@@ -21,6 +21,8 @@
         <module>L3x-Zookeeper</module>
         <module>L3x-CloudGateWay</module>
         <module>L3x-SpringSecurity</module>
+        <module>L3x-Proxy</module>
+        <module>L3x-OpenFeign</module>
     </modules>
 
     <parent>

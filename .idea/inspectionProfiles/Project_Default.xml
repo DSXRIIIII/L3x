@@ -60,7 +60,7 @@
     <inspection_tool class="AlibabaUseQuietReferenceNotation" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AlibabaUseRightCaseForDateFormat" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ADDITIONAL_TAGS" value="ProjectName:,Description:,Author:,CreateDate:,Email:,Author,Project,Package,Date" />
+      <option name="ADDITIONAL_TAGS" value="ProjectName:,Description:,Author:,CreateDate:,Email:,Author,Project,Package,Date,Date:,PackageName:" />
     </inspection_tool>
   </profile>
 </component>

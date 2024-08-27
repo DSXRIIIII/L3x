@@ -20,7 +20,12 @@
     <file url="file://$PROJECT_DIR$/L3x-Log/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/L3x-Log/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/L3x-Nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-OpenFeign/openfeign-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-OpenFeign/openfeign-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-OpenFeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-OpenFeign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/L3x-PageHelper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/L3x-Proxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/L3x-RabbitMQ/costomer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/L3x-RabbitMQ/publisher/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/L3x-RabbitMQ/src/main/java" charset="UTF-8" />

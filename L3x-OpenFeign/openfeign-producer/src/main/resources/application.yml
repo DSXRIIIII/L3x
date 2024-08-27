@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: l3x-openfeign-discovery
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.113.228.37:8848
+        username: nacos
+        password: Lhh0719.
+        register-enabled: true # 生产者注册
+server:
+  port: 1312
