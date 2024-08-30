@@ -1,4 +1,4 @@
-package cn.dsxriiiii.security;
+package cn.dsxriiiii.l3x.security;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

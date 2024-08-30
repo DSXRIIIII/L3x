@@ -1,2 +1,7 @@
 server:
   port: 6789
+spring:
+  datasource:
+    url: jdbc:postgresql://116.198.246.11:5432/security_demo
+    username: postgres
+    password: Lhh0719.

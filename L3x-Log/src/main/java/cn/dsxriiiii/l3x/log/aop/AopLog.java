@@ -1,4 +1,4 @@
-package cn.dsxriiiii.l3x.log.Aop;
+package cn.dsxriiiii.l3x.log.aop;
 
 import cn.dsxriiiii.l3x.log.po.AppLog;
 import cn.hutool.core.util.ArrayUtil;

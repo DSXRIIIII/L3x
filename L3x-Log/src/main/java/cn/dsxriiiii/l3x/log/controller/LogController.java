@@ -1,4 +1,4 @@
-package cn.dsxriiiii.l3x.log.Controller;
+package cn.dsxriiiii.l3x.log.controller;
 
 import cn.dsxriiiii.l3x.log.annotation.L3xLog;
 import org.slf4j.Logger;

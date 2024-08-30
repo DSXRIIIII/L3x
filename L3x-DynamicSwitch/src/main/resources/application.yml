@@ -1,0 +1,13 @@
+server:
+  port: 5678
+
+
+spring:
+  cloud:
+    nacos:
+      server-addr: 47.113.228.37:8848
+      config:
+        import-check:
+          enabled: false
+  application:
+    name: l3x-nacos-dynamic-switch

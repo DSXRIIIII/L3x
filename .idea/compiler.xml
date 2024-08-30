@@ -17,6 +17,7 @@
         <module name="L3x-SpringSecurity" />
         <module name="openfeign-consumer" />
         <module name="L3x-Proxy" />
+        <module name="L3x-DynamicSwitch" />
         <module name="L3x-Zookeeper" />
         <module name="dubbo-consumer-two" />
         <module name="L3x-LiteFlow" />
@@ -36,6 +37,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="L3x-CloudGateWay" options="" />
       <module name="L3x-Dubbo-rpc" options="-parameters" />
+      <module name="L3x-DynamicSwitch" options="-parameters" />
       <module name="L3x-Guava" options="-parameters" />
       <module name="L3x-LiteFlow" options="-parameters" />
       <module name="L3x-Log" options="-parameters" />

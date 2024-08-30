@@ -23,6 +23,7 @@
         <module>L3x-SpringSecurity</module>
         <module>L3x-Proxy</module>
         <module>L3x-OpenFeign</module>
+        <module>L3x-DynamicSwitch</module>
     </modules>
 
     <parent>
