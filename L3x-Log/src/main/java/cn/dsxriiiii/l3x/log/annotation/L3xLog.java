@@ -12,7 +12,6 @@ import java.lang.annotation.Target;
  * @CreateDate: 2024/7/29 17:35
  * @Email: lihh53453@hundsun.com
  */
-
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface L3xLog {

@@ -4,12 +4,15 @@ import com.yomahub.liteflow.builder.LiteFlowNodeBuilder;
 import com.yomahub.liteflow.builder.el.LiteFlowChainELBuilder;
 import com.yomahub.liteflow.core.FlowExecutor;
 import com.yomahub.liteflow.enums.NodeTypeEnum;
+import com.yomahub.liteflow.flow.LiteflowResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+
+import java.util.concurrent.Future;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
@@ -36,7 +39,7 @@ public class LiteFlowController {
 
     @RequestMapping(value = "/script", method = GET)
     @ResponseBody
-    public void script_java_init(){
+    public void scriptJavaInit(){
         LiteFlowNodeBuilder.createScriptNode()
                 .setId("script_java")
                 .setName("java_liteflow可执行脚本")
@@ -54,7 +57,7 @@ public class LiteFlowController {
                         "public class ScriptBuilder implements JaninoCommonScriptBody{\n" +
                         "    @Override\n" +
                         "    public Void body(ScriptExecuteWrap scriptExecuteWrap) {\n" +
-                        "        System.out.println(\"123\");\n" +
+                        "        System.out.println(\"LiteFlow使用\");\n" +
                         "        return null;\n" +
                         "    }\n" +
                         "}\n")
