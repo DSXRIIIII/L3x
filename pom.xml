@@ -24,6 +24,7 @@
         <module>L3x-Proxy</module>
         <module>L3x-OpenFeign</module>
         <module>L3x-DynamicSwitch</module>
+        <module>L3x-DesignPattern</module>
     </modules>
 
     <parent>

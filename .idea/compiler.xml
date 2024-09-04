@@ -24,6 +24,7 @@
         <module name="gateway-service" />
         <module name="L3x-Dubbo-rpc" />
         <module name="gateway-service-son" />
+        <module name="L3x-DesignPattern" />
         <module name="L3x-Log" />
         <module name="publisher" />
         <module name="dubbo-producer" />
@@ -36,6 +37,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="L3x-CloudGateWay" options="" />
+      <module name="L3x-DesignPattern" options="-parameters" />
       <module name="L3x-Dubbo-rpc" options="-parameters" />
       <module name="L3x-DynamicSwitch" options="-parameters" />
       <module name="L3x-Guava" options="-parameters" />
