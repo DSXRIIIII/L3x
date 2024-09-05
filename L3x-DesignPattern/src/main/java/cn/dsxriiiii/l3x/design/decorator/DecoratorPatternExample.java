@@ -8,6 +8,7 @@ package cn.dsxriiiii.l3x.design.decorator;
  * @Description: DecoratorPatternExample
  * 如果你希望在无需修改代码的情况下即可使⽤对象， 且希望在运行时为对
  * 象新增额外的行为， 可以使用装饰模式。
+ * 动态的给对象增加一些职责，即增加其额外的功能。
  **/
 public class DecoratorPatternExample {
     public static void main(String[] args) {
