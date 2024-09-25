@@ -25,6 +25,7 @@
         <module>L3x-OpenFeign</module>
         <module>L3x-DynamicSwitch</module>
         <module>L3x-DesignPattern</module>
+        <module>L3x-Redisson</module>
     </modules>
 
     <parent>

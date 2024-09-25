@@ -16,6 +16,7 @@
         <module name="dubbo-consumer-one" />
         <module name="L3x-SpringSecurity" />
         <module name="openfeign-consumer" />
+        <module name="L3x-Redisson" />
         <module name="L3x-Proxy" />
         <module name="L3x-DynamicSwitch" />
         <module name="L3x-Zookeeper" />
@@ -48,6 +49,7 @@
       <module name="L3x-PageHelper" options="-parameters" />
       <module name="L3x-Proxy" options="-parameters" />
       <module name="L3x-RabbitMQ" options="" />
+      <module name="L3x-Redisson" options="-parameters" />
       <module name="L3x-Sentinal" options="-parameters" />
       <module name="L3x-SpringSecurity" options="-parameters" />
       <module name="L3x-Zookeeper" options="-parameters" />

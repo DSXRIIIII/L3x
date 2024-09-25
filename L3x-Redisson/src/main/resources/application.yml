@@ -1,0 +1,17 @@
+server:
+  port: 4567
+
+redis:
+  sdk:
+    config:
+      host: 47.113.228.37
+      password: Lhh0719.
+      port: 6379
+      pool-size: 10
+      min-idle-size: 5
+      idle-timeout: 30000
+      connect-timeout: 5000
+      retry-attempts: 3
+      retry-interval: 1000
+      ping-interval: 60000
+      keep-alive: true
