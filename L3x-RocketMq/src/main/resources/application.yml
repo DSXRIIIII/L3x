@@ -1,0 +1,8 @@
+server:
+  port: 6789
+rocketmq:
+  name-server: 116.198.246.11:9876
+  producer:
+    group: l3x-producer
+  consumer:
+    group: l3x-consumer

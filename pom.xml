@@ -26,6 +26,8 @@
         <module>L3x-DynamicSwitch</module>
         <module>L3x-DesignPattern</module>
         <module>L3x-Redisson</module>
+        <module>L3x-Kafka</module>
+        <module>L3x-RocketMq</module>
     </modules>
 
     <parent>

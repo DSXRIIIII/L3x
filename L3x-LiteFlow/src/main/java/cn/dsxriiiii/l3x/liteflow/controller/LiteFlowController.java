@@ -1,5 +1,6 @@
 package cn.dsxriiiii.l3x.liteflow.controller;
 
+import cn.dsxriiiii.l3x.liteflow.context.BusinessSceneContext;
 import com.yomahub.liteflow.builder.LiteFlowNodeBuilder;
 import com.yomahub.liteflow.builder.el.LiteFlowChainELBuilder;
 import com.yomahub.liteflow.core.FlowExecutor;
@@ -34,7 +35,7 @@ public class LiteFlowController {
     @ResponseBody
     public void liteFlow(){
         LiteFlowChainELBuilder.createChain().setChainName("chain").setEL("THEN(one,three,two)").build();
-        flowExecutors.execute2Future("chain",null);
+        flowExecutors.execute2Future("chain",null, BusinessSceneContext.class);
     }
 
     @RequestMapping(value = "/script", method = GET)

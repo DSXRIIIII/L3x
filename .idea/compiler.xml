@@ -17,6 +17,7 @@
         <module name="L3x-SpringSecurity" />
         <module name="openfeign-consumer" />
         <module name="L3x-Redisson" />
+        <module name="L3x-RocketMq" />
         <module name="L3x-Proxy" />
         <module name="L3x-DynamicSwitch" />
         <module name="L3x-Zookeeper" />
@@ -28,6 +29,7 @@
         <module name="L3x-DesignPattern" />
         <module name="L3x-Log" />
         <module name="publisher" />
+        <module name="L3x-Kafka" />
         <module name="dubbo-producer" />
       </profile>
     </annotationProcessing>
@@ -42,6 +44,7 @@
       <module name="L3x-Dubbo-rpc" options="-parameters" />
       <module name="L3x-DynamicSwitch" options="-parameters" />
       <module name="L3x-Guava" options="-parameters" />
+      <module name="L3x-Kafka" options="-parameters" />
       <module name="L3x-LiteFlow" options="-parameters" />
       <module name="L3x-Log" options="-parameters" />
       <module name="L3x-Nacos" options="-parameters" />
@@ -50,6 +53,7 @@
       <module name="L3x-Proxy" options="-parameters" />
       <module name="L3x-RabbitMQ" options="" />
       <module name="L3x-Redisson" options="-parameters" />
+      <module name="L3x-RocketMq" options="-parameters" />
       <module name="L3x-Sentinal" options="-parameters" />
       <module name="L3x-SpringSecurity" options="-parameters" />
       <module name="L3x-Zookeeper" options="-parameters" />
